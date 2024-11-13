@@ -1,0 +1,32 @@
+# ELT LOADER
+
+<!-- AN APPLICATOIN GIVING HISTORIC DATA FOR 2015 EARTHQUAKES AND THEIR MAGNITUDES. -->
+
+## Installation
+
+
+```bash
+PIP install dash
+pip install plotly_express==0.4.0
+```
+
+## Usage
+
+```python
+from dash import Dash, html, dcc
+import pandas as pd
+import geopandas as gpd
+import plotly.express as px
+from sqlalchemy import URL, create_engine
+from dotenv import load_dotenv
+import os
+
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
